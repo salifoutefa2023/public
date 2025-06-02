@@ -1,0 +1,1 @@
+!function(){"use strict";const r=document.currentScript&&document.currentScript.dataset.serviceWorker,e=/^(((?!chrome|android).)*safari)|Edge\//i.test(navigator.userAgent);r&&navigator.serviceWorker&&!e&&require(["framework/js/configurations/config"],function(e){e.serviceWorker.enabled&&window.addEventListener("load",function(){navigator.serviceWorker.register(r)})})}();
